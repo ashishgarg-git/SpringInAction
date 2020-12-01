@@ -1,6 +1,5 @@
 package com.springinaction.tacocloud.model;
 
-import com.springinaction.tacocloud.Ingredient;
 import lombok.Data;
 
 import java.util.List;
@@ -9,6 +8,6 @@ import java.util.List;
 public class Taco {
 
     private String name;
-    private List<Ingredient> ingredients;
+    private List<String> ingredients;
 
 }
